@@ -1,0 +1,37 @@
+ls 		: [path of a folder (optional)] - shows the files in the folder whose path is given. If not mentioned, then displays the 		   files in the current folder.
+
+cd 		: change directory
+
+pwd 	: displays current working directory.
+
+cat 	: displays a file. cat > filename will provide you to fill in the content into the file
+
+touch 	: this helps to create a file and enter the content in it.
+
+cal		: displays calender
+
+date 	: displays system date and time. Can be filtered by adding options.
+
+banner	: displays fancy texts.
+
+dd		: dd if=input file of=output file conv=conversion_format will convert the file into specified format like ucase converts 		   into uppercase.
+
+cp		: this is the copy command. cp path_of_file_to_copy path_of_destination_file.
+
+rm		: delete file.
+
+mkdir	: This creates a directory.
+
+rmdir	: This deletes a directory.
+
+mv 		: This is used to rename files.
+
+wc		: This is 'word count' gives the count of lines, sentences and characters in a specified file.
+
+sort	: Sorts the file as per ascii values.
+
+cut 	: This cuts the file for the delimeter mentioned -d "delimeter", even the fields (columns) can be chosen using filters 			  -f 'numbers'.
+
+link 	: This helps to create an automatically updating dependent file. Hard link - doesn't get affected when original file is 		  deleted but soft link created using -s filter will be nothing but the shortcut file to a particular file and will not 		  be valid after the dependent file is deleted.
+
+whoami	: Will give the system details. My name and stuff.
